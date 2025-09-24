@@ -35,3 +35,5 @@ from huggingface_sb3 import load_from_hub
 
 ...
 ```
+
+# HuggingFace-Training
