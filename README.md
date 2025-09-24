@@ -1,4 +1,4 @@
-# Welcome to 🤗 HuggingFace-Training
+# Welcome to 🤗 HuggingFace Training
 
 Welcome to the fascinating world of HuggingFace model training and experimentation!
 
