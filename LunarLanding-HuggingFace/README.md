@@ -20,6 +20,7 @@ model-index:
       name: mean_reward
       verified: false
 ---
+> HuggingFace-Training "Lunar Landing Task" From Deep Reinforcement Learning Course.
 
 # **PPO** Agent playing **LunarLander-v2**
 This is a trained model of a **PPO** agent playing **LunarLander-v2**
@@ -90,12 +91,10 @@ mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10, d
 print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 ```
 ---
-## [**Trained Agent Preview**](replay.mp4)
-
+## [**Trained Agent Preview**](replay.gif)
+![Trained Agent Preview](replay.gif)
 
 ---
 ## Evaluation results
 mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
-
 ---
-> HuggingFace-Training "Lunar Landing Task" From Deep Reinforcement Learning Course.
