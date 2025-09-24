@@ -89,5 +89,13 @@ eval_env = Monitor(gym.make("LunarLander-v2", render_mode='rgb_array'))
 mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10, deterministic=True)
 print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 ```
+---
+## [**Trained Agent Preview**](replay.mp4)
 
+
+---
+## Evaluation results
+mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
+
+---
 > HuggingFace-Training "Lunar Landing Task" From Deep Reinforcement Learning Course.
