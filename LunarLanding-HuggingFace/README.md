@@ -96,5 +96,5 @@ print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 
 ---
 ## Evaluation results
-mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
+#### mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
 ---
