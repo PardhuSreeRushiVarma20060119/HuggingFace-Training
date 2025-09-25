@@ -33,9 +33,13 @@ In this repo, i will:
 HuggingFace-Training/
 │
 ├── LunarLanding-HuggingFace/   # RL experiment on LunarLanding
-│   ├── lunarlanding.ipynb      # Original notebook
+│   ├── lunarlanding.ipynb      # notebook
 |   └── etc....                 # other files 
 │
+├── ppo-HuggyTraining/   # RL experiment on Huggy
+│   ├── huggytraining.ipynb      # notebook
+|   └── etc....
+|
 ├── transformers (comming soon)/ # Transformer model training examples
 │   ├── classification/          # Text classification
 │   ├── token_classification/    # Named Entity Recognition (NER)
