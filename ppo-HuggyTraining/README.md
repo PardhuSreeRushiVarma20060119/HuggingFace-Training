@@ -41,7 +41,7 @@ For example, the most recent model file is: **`Huggy.onnx`**
 
 ---
 
-## ⚙️ Training 
+## ⚙️ Huggy Training 
 
 - **Environment**: Huggy (Unity ML-Agents)  
 - **Algorithm**: PPO (Proximal Policy Optimization)  
@@ -49,6 +49,34 @@ For example, the most recent model file is: **`Huggy.onnx`**
 - **Integration**: Model packaged and uploaded to Hugging Face for sharing and deployment 
 - **View training metrics on** : [**TensorBoard**](https://huggingface.co/VarmaHF/ppo-HuggyTraining/tensorboard)
 
+
+---
+## How Huggy Learned 🐶
+
+This PPO agent was trained using **Unity ML-Agents** to play Huggy. Here’s a breakdown of what’s happening, both for curious developers and casual observers:
+
+### Training Insights (Tech + RL perspective)
+
+- **Policy Learning:**  
+  The agent’s policy gradually improved—early in training, Huggy chose random actions, but over time it learned which moves yield higher rewards.  
+- **Reward Trends:**  
+  Cumulative rewards increased steadily, showing the agent is getting better at achieving the game objectives.  
+- **Stable Convergence:**  
+  Both the policy and value networks improved smoothly without erratic jumps, indicating stable PPO optimization.  
+- **Checkpoints Matter:**  
+  We saved the model at multiple steps, so you can compare early, middle, and late training stages to see how decision-making evolved.
+
+### What This Means for Everyone
+
+- Huggy starts off “learning the ropes” like a new player. 🐾  
+- As training progresses, Huggy becomes smarter, more consistent, and starts earning higher scores.  
+- You can try different saved models to **see improvement over time**—from clumsy beginnings to confident gameplay.  
+- The most recent checkpoint represents the **best-performing agent**: Huggy knows the game well and reacts optimally.  
+
+**Try it Yourself:**  
+Open the Huggy game in your browser 👉 [**Play with Huggy**](https://huggingface.co/spaces/ThomasSimonini/Huggy) and select the model [**ONNX File**](./Huggy.onnx) to see the trained agent in action.  
+
+💡 *Fun tip:* Load older checkpoints to watch Huggy “grow smarter” as you play!
 
 ---
 
