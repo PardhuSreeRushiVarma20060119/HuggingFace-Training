@@ -54,7 +54,7 @@ For example, the most recent model file is: **`Huggy.onnx`**
 
 The PPO agent was trained successfully and learned to play the Huggy environment. 
 
-[![Replay of HuggyTraining](./huggyreplayimg.png)](https://drive.google.com/file/d/1ilGBHVGAksp2vEu8C8IpKLoNCgKkjYLE/view?usp=sharing)
+[![Replay of HuggyTraining](./huggyreplayimg.png)](https://drive.google.com/file/d/1hjmg2YqgatzvyJVyORZImoStfPRBRc9W/view?usp=sharing)
 
 Thanks to the Hugging Face integration, you can:  
 - Preview the trained agent in huggingface
