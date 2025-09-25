@@ -20,6 +20,7 @@ model-index:
       name: mean_reward
       verified: false
 ---
+> HuggingFace-Training "Lunar Landing Task" From Deep Reinforcement Learning Course.
 
 # **PPO** Agent playing **LunarLander-v2**
 This is a trained model of a **PPO** agent playing **LunarLander-v2**
@@ -28,6 +29,12 @@ using the [stable-baselines3 library](https://github.com/DLR-RM/stable-baselines
 ## Usage (with Stable-baselines3)
 check **LunarLanding-HuggingFace/lunarlanding.ipynb** for code.
 ```python
+from huggingface_sb3 import load_from_hub, package_to_hub
+from huggingface_hub import notebook_login # To log to our Hugging Face account to be able to upload models to the Hub.
+from stable_baselines3 import PPO
+from stable_baselines3.common.env_util import make_vec_env
+from stable_baselines3.common.evaluation import evaluate_policy
+from stable_baselines3.common.monitor import Monitor
 import gymnasium as gym
 # First, we create our environment called LunarLander-v2
 env = gym.make("LunarLander-v2")
@@ -83,5 +90,11 @@ eval_env = Monitor(gym.make("LunarLander-v2", render_mode='rgb_array'))
 mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10, deterministic=True)
 print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 ```
+---
+## [**Trained Agent Preview**](replay.gif)
+![Trained Agent Preview](replay.gif)
 
-> HuggingFace-Training "Lunar Landing Task" From Deep Reinforcement Learning Course.
+---
+## Evaluation results
+#### mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
+---
