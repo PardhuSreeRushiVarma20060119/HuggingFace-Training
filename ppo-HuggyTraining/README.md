@@ -41,12 +41,14 @@ For example, the most recent model file is: **`Huggy.onnx`**
 
 ---
 
-## ⚙️ Training Setup  
+## ⚙️ Training 
 
 - **Environment**: Huggy (Unity ML-Agents)  
 - **Algorithm**: PPO (Proximal Policy Optimization)  
 - **Frameworks**: Unity ML-Agents + Hugging Face Hub  
-- **Integration**: Model packaged and uploaded to Hugging Face for sharing and deployment  
+- **Integration**: Model packaged and uploaded to Hugging Face for sharing and deployment 
+- **View training metrics on** : [**TensorBoard**](https://huggingface.co/VarmaHF/ppo-HuggyTraining/tensorboard)
+
 
 ---
 
