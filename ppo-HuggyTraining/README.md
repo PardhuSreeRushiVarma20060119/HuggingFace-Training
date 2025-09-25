@@ -70,13 +70,13 @@ This PPO agent was trained using **Unity ML-Agents** to play Huggy. Here’s a b
 
 - Huggy starts off “learning the ropes” like a new player. 🐾  
 - As training progresses, Huggy becomes smarter, more consistent, and starts earning higher scores.  
-- You can try different saved models to **see improvement over time**—from clumsy beginnings to confident gameplay.  
-- The most recent checkpoint represents the **best-performing agent**: Huggy knows the game well and reacts optimally.  
+- You can try different saved models in [**Huggy-Folder**](./Huggy/) to **see improvement over time**—from clumsy beginnings to confident gameplay.  
+- The most recent checkpoint (**2M Timesteps**) [**Trained-Huggy**](./Huggy/Huggy-2000042.onnx) represents the **best-performing agent**: Huggy knows the game well and reacts optimally.  
 
 **Try it Yourself:**  
 Open the Huggy game in your browser 👉 [**Play with Huggy**](https://huggingface.co/spaces/ThomasSimonini/Huggy) and select the model [**ONNX File**](./Huggy.onnx) to see the trained agent in action.  
 
-💡 *Fun tip:* Load older checkpoints to watch Huggy “grow smarter” as you play!
+💡 *Fun tip:* Load older checkpoints in [**Huggy-Folder**](./Huggy/) to watch Huggy “grow smarter” as you play!
 
 ---
 
