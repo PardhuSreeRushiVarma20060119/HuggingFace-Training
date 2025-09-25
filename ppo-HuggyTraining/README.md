@@ -53,7 +53,10 @@ For example, the most recent model file is: **`Huggy.onnx`**
 ## 📊 Results  
 
 The PPO agent was trained successfully and learned to play the Huggy environment. 
-[Watch the Huggy replay on Hugging Face](https://huggingface.co/VarmaHF/ppo-HuggyTraining/raw/main/replay.mp4)
+<video width="640" height="360" controls>
+  <source src="https://drive.google.com/uc?export=download&id=1ilGBHVGAksp2vEu8C8IpKLoNCgKkjYLE" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 Thanks to the Hugging Face integration, you can:  
 - Preview the trained agent  
