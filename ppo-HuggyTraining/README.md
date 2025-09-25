@@ -6,7 +6,7 @@ tags:
 - reinforcement-learning
 - ML-Agents-Huggy
 ---
-
+*My HuggingFace Repo* : *https://huggingface.co/VarmaHF/ppo-HuggyTraining*
   # **ppo** Agent playing **Huggy**
   This is a trained model of a **ppo** agent playing **Huggy**
   using the [Unity ML-Agents Library](https://github.com/Unity-Technologies/ml-agents).
