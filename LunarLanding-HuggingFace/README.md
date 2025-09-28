@@ -91,6 +91,12 @@ eval_env = Monitor(gym.make("LunarLander-v2", render_mode='rgb_array'))
 mean_reward, std_reward = evaluate_policy(model, eval_env, n_eval_episodes=10, deterministic=True)
 print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 ```
+
+---
+## Result 
+
+[![Replay of LunarLanding](https://github.com/user-attachments/assets/458e784c-f44f-4103-bf64-306206dd7993)](https://drive.google.com/file/d/10itLldy5Of244NbJti2MsGJSvGtE9omM/view?usp=sharing)
+
 ---
 ## Evaluation results
 #### mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
