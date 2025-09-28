@@ -93,7 +93,7 @@ print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 ```
 ---
 ## [**Trained Agent Preview**](replay.gif)
-![Trained Agent Preview](replay.gif)
+[Trained Agent Preview](replay.gif)
 
 ---
 ## Evaluation results
