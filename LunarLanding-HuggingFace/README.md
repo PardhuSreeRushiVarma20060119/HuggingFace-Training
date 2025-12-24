@@ -16,7 +16,7 @@ model-index:
       type: LunarLander-v2
     metrics:
     - type: mean_reward
-      value: 269.75 +/- 16.34
+      value: 370.25 +/- 8.94
       name: mean_reward
       verified: false
 ---
@@ -99,5 +99,5 @@ print(f"mean_reward={mean_reward:.2f} +/- {std_reward}")
 
 ---
 ## Evaluation results
-#### mean_reward on **LunarLander-v2** (self-reported) : 269.75 +/- 16.34
+#### mean_reward on **LunarLander-v2** (self-reported) : 370.25 +/- 8.94
 ---
